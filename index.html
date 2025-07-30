@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embodied Intelligence for Sustainable Flight: A Soaring Robot with Active Morphological Control</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .authors {
+            font-style: italic;
+            color: #555;
+        }
+        .abstract {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-left: 5px solid #ccc;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Embodied Intelligence for Sustainable Flight: A Soaring Robot with Active Morphological Control</h1>
+        <p class="authors">Ghadeer Elmkaiel¹, Syn Schmitt², Michael Muehlebach¹</p>
+        <p>¹Learning and Dynamical Systems, Max Planck Institute for Intelligent Systems, Tübingen & 72076, Germany.</p>
+        <p>²Institute for Modelling and Simulation of Biomechanical Systems, University of Stuttgart, Stuttgart & 70569, Germany.</p>
+        
+        <h2>Abstract</h2>
+        <div class="abstract">
+            <p>Achieving both agile maneuverability and high energy efficiency in aerial robots, particularly in dynamic wind environments, remains challenging. Conventional thruster-powered systems offer agility but suffer from high energy consumption, while fixed-wing designs are efficient but lack hovering and maneuvering capabilities. We present Floaty, a shape-changing robot that overcomes these limitations by passively soaring, harnessing wind energy through intelligent morphological control inspired by birds. Floaty's design is optimized for passive stability, and its control policy is derived from an experimentally learned aerodynamic model, enabling precise attitude and position control without active propulsion. Wind tunnel experiments demonstrate Floaty's ability to hover, maneuver, and reject disturbances in vertical airflows up to $10~\mathrm{m/s}$. Crucially, Floaty achieves this with a specific power consumption of $10~\mathrm{W/kg}$, an order of magnitude lower than thruster-powered systems. This introduces a paradigm for energy-efficient aerial robotics, leveraging morphological intelligence and control to operate sustainably in challenging wind conditions.</p>
+        </div>
+
+        <h2>Supplementary Videos</h2>
+
+        <h3>Supplementary Video 1: Floaty</h3>
+        <p>The robot's design and some experiments.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cRdA4--e9uk?si=P5utHH1DAuxUUUaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h3>Supplementary Video 2: Control Concept</h3>
+        <p>A visualization of our actuation principle to illustrate the effect of the input on the dynamics</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yLkdlcFCu2k?si=EWKNTfCQvQUumXvm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h3>Supplementary Video 3: Hover experiment</h3>
+        <p>The robot performs a static target tracking, shown in red, with the real-time error in position and orientation displayed at the bottom.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QqbrLV50d1A?si=cIswX2CDoxKs6n7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h3>Supplementary Video 4: Height tracking experiment</h3>
+        <p>The robot performs a dynamic target tracking with the target position moving vertically, following a sine wave, shown in red. The error in position and the z-control command are displayed to the right.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-5-351jOzsA?si=mnWSyIxZ2reAYNM3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <h3>Supplementary Video 5: Yaw tracking experiment</h3>
+        <p>The robot performs a yaw angle tracking with the target orientation following a sine wave with an amplitude of π/2. The target orientation is illustrated with a red arrow.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6MLLJxKlHp0?si=jpVq406ddwQlTSEm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h3>Supplementary Video 6: Quadcopter flight in a wind tunnel</h3>
+        <p>Comparison of the flight performance of two different scales of quadcopters with and without vertical airflow. Micro Crazyflie 27 g quadcopter, and a custom-built 40 × 40 cm, 940 g quadcopter.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/YXfBHWnxt2g?si=bOyEyyBUJ8I4ej7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h3>Supplementary Video 7: Robustness and disturbance rejection</h3>
+        <p>The robot is capable of maintaining flight across multiple experiments with different disturbances.</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4dZr9aHVQaU?si=FQNH0gImq3A20FhF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </div>
+</body>
+</html>
